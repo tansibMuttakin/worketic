@@ -12,7 +12,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\ReviewOptions;
 
 /**
  * Class ReviewOptions
