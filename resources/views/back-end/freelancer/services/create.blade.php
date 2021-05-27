@@ -105,9 +105,6 @@
                                         <div class="form-group form-group-half">
                                             {!! Form::text( 'address', null, ['id'=>"pac-input", 'class' =>'form-control', 'placeholder' => trans('lang.your_address')] ) !!}
                                         </div>
-                                        <div class="form-group wt-formmap">
-                                            @include('includes.map')
-                                        </div>
                                         <div class="form-group form-group-half">
                                             {!! Form::text( 'longitude', null, ['id'=>"lng-input", 'class' =>'form-control', 'placeholder' => trans('lang.enter_logitude')]) !!}
                                         </div>
